@@ -1,0 +1,64 @@
+cd /c/xampp/htdocs/finsolute
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/mattrie/fintech.git
+git branch -M main  # Rename the default branch to 'main' (optional)
+git push -u origin main
+
+GIT_AUTHOR_NAME="Adedokun Adewale Azeez" \
+GIT_AUTHOR_EMAIL="adeazeez@gmail.com" \
+GIT_COMMITTER_NAME="Adedokun Adewale Azeez" \
+GIT_COMMITTER_EMAIL="adeazeez@gmail.com" \
+GIT_COMMITTER_DATE="2020-03-01T12:00:00" \
+GIT_AUTHOR_DATE="2020-03-01T12:00:00" \
+git commit --amend --no-edit --allow-empty
+
+
+Please I want to back the project to 2020 March and also I want to it so show commits in  files made by Adedokun Adewale Azeez as commented in the pages as:
+ // By  Adedokun Adewale Azeez  5th August 2020
+
+
+cd /c/xampp/htdocs/651BSGACCN
+git remote remove origin
+git remote add origin https://github.com/mattrie/nigerian_airforce_acc.git
+
+git remote -v
+
+//This is the Initial Push
+git branch -M main
+git push -u origin main
+
+
+export GIT_AUTHOR_NAME="Adedokun Adewale Azeez"
+export GIT_AUTHOR_EMAIL="adedokunk1@gmail.com"
+
+
+git reset --soft HEAD~1  # This moves HEAD back but keeps your changes staged
+
+export GIT_AUTHOR_NAME="Adedokun Adewale Azeez"
+export GIT_AUTHOR_EMAIL="adedokun@gmail.com"  # Replace with actual email
+export GIT_AUTHOR_DATE="2022-04-03T12:00:00"
+export GIT_COMMITTER_DATE="2022-04-03T12:00:00"
+
+3️⃣ Recommit with All 8 Files
+Now, recommit with the correct author and date:
+
+bash
+Copy
+Edit
+git commit -m "Edits made by Adedokun Adewale Azeez on April 3, 2022"
+4️⃣ Push with Force to Rewrite History
+Since you’re modifying commit history, push with --force:
+
+bash
+Copy
+Edit
+git push --force origin main
+🚨 Warning: This will override history, so ensure no one else is working on the same branch before doing this.
+
+
+git commit --amend
+git push origin main --force
+
+
